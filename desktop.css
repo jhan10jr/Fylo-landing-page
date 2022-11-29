@@ -1,0 +1,90 @@
+.logo .logo_img {
+
+    width: 90px;
+}
+
+.informacion{
+
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+    margin: 30px;
+    
+
+}
+
+.informacion_text {
+
+    width: 40%;
+    font-size: 15px;
+    margin-right: 20px;
+}
+
+.informacion_text .title {
+
+    font-size: 30px;
+       
+
+}
+
+.form {
+    
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    
+    
+}
+
+.form_email {
+    width: 70%;
+    margin-right: 20px;
+}
+
+.form_boton {
+margin: 0;
+width: 30%;
+height: 40px;
+}
+
+.informacion_img  {
+
+    width: 40%;
+}
+
+
+.productividad {
+
+    flex-direction: row-reverse;
+}
+
+.productividad_text {
+
+    flex-direction: column;
+}
+
+.early_access {
+
+    flex-direction: row;
+}
+
+
+.early_access .form {
+
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+
+.early_access .form .form_email 
+{
+
+    margin-bottom: 15px;
+}
+
+footer {
+ display: flex;
+flex-direction: row;
+justify-content: space-around;
+}

@@ -1,0 +1,244 @@
+* {
+
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
+font-family: 'Open Sans', sans-serif;
+
+}
+
+
+header {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    position: sticky;
+    background-color: rgb(255, 255, 255);
+    top: 0;
+    box-shadow: 0px 3px 10px rgb(210, 202, 219);
+}
+
+
+.logo .logo_img {
+
+    width: 80px;
+}
+
+.menu {
+
+    display: inline;
+    width: 200px;
+    
+}
+
+.menu_list   {
+
+display: flex;
+width: 100%;
+justify-content: space-between;
+
+}
+
+.menu_list li {
+list-style: none;
+
+}
+
+.menu_list  li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.informacion{
+
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+
+}
+
+.informacion_img {
+
+    margin-top: 80px;
+}
+
+.informacion_img img {
+
+    width: 100%;
+}
+
+.informacion_text {
+    text-align: center;
+    color: rgb(15, 40, 87);
+}
+
+.informacion_text .title {
+
+    font-size: 40px;
+    margin-top: 20px;    
+
+}
+
+.informacion_text .parrafo {
+
+    font-weight: 600;
+    margin-top: 20px;   
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px; 
+
+}
+
+.form_email {
+    height: 40px;
+    border: solid 1.5px rgb(15, 40, 87);
+    border-radius: 4px;
+}
+
+.form_boton {
+
+    margin-top: 20px;
+    border: solid 1.5px transparent;
+    background-color:  rgb(49, 107, 216);
+    color: aliceblue;
+    border-radius: 5px;
+    padding: 7px 7px;
+    font-weight: 600;
+}
+
+
+.productividad {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+.productividad_img {
+
+    margin-top: 30px;
+
+}
+.productividad_img img {
+    width: 100%;
+}
+
+
+.productividad_text .title {
+
+    text-align: center;
+    margin: 40px 20px;
+
+}
+
+.productividad_text .parrafo_2 {
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.ver  {
+    color: rgb(48, 90, 66);
+    font-weight: bold;
+    text-align: center;
+}
+
+.card {
+    flex-direction: column;
+    color: rgb(15, 40, 87);
+    margin: 30px;
+    padding: 20px;
+    border: solid 2px white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgb(224, 224, 224) ;
+}
+
+.card_parrafo{
+    font-size: 15px;
+    
+    font-weight: 900;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.card_profile{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+.container_img {
+    margin-right: 5px;
+}
+.container_img img{
+
+    width: 30px;
+    border-radius: 50%;
+}
+
+.container_text {
+    font-size: 10px;
+} 
+
+.early_access {
+display: flex;
+flex-direction: column;
+padding: 50px;
+text-align: center;
+color: beige;
+background-color: rgb(117, 96, 138);
+
+}
+
+footer {
+    
+    background-color: rgb(19, 1, 36);
+    color: beige;
+    padding: 50px;
+}
+.logo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.contacto{
+
+    margin-bottom: 10px;
+}
+
+.redes_sociales{
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.redes_sociales a {
+    display: inline;
+    
+}
+.redes_sociales a img {
+
+    height: 30px;
+    color: wheat;
+}
+
+.navegacion {
+    display: inline;
+    
+}
+
+.navegacion_list li {
+    list-style: none;
+}
+
+
+.navegacion_list li a  {
+    text-decoration: none;
+    color: beige;
+}
